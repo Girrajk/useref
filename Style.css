@@ -1,0 +1,38 @@
+.stop-watch{
+    border: 2px solid black;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    gap: 5px;
+    box-shadow: 0px 0px 7px black;
+    border-radius: 5px;
+    padding: 10px;
+    background-image: linear-gradient(pink,yellow);
+}
+
+.stop-watch button{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(39, 38, 38);
+    color: gold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.stop-watch button:hover{
+    background-color: black;
+}
+.stop-watch p{
+    border: 1px solid black;
+    background-color: rgb(159, 159, 235);
+    color: black;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
